@@ -1,0 +1,28 @@
+---
+description: tech-stack-rules
+globs: 
+alwaysApply: false
+---
+
+#Simplified Tech Stack
+- Front-End
+-- React.js, Bootstrap, Axios
+
+- Back-End
+-- Node.js + Express.js
+
+- Blockchain
+-- Ethers.js, Alchemy
+
+- Evaluation Logic
+-- JavaScript (rule-based)
+
+- Deployment
+-- Vercel (front-end), Render (back-end)
+
+- Version Control
+-- Git, GitHub
+
+- Development Tools
+-- VS Code, Postman, NPM
+

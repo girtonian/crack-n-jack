@@ -1,0 +1,25 @@
+{
+  "name": "raa-bp",
+  "version": "1.0.0",
+  "description": "Rating AI Agent for Blockchain Projects - Hackathon POC",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd raa-bp-backend && npm start",
+    "start:frontend": "cd raa-bp-frontend && npm start",
+    "install:all": "npm install && cd raa-bp-backend && npm install && cd ../raa-bp-frontend && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blockchain",
+    "rating",
+    "ai",
+    "hackathon",
+    "mantle"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+} 
